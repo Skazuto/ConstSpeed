@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PITempCS
+namespace BukiPI
 {
   /// <summary>メインの機能をここに実装する。</summary>
   static internal class Main

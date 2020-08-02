@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PITempCS
+namespace BukiPI
 {
 
   /// <summary>列車のスペックに関する構造体</summary>
@@ -112,7 +112,7 @@ namespace PITempCS
     /// <summary>前回の状態を継続する</summary>
     public const int Continue = 2;
     /// <summary>再生を停止する</summary>
-    public const int Stop = -1000;
+    public const int Stop = -10000;
   }
   /// <summary>ハンドルの初期位置設定</summary>
   public static class InitialPos
